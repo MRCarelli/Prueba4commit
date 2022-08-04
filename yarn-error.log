@@ -1,0 +1,45 @@
+Arguments: 
+  /usr/local/bin/node /opt/yarn-v1.22.19/bin/yarn.js install
+
+PATH: 
+  /project/home/pitcher-host/.nix-profile/bin:/nix/var/nix/profiles/default/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  16.16.0
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: EACCES: permission denied, mkdir '/project/.cache/yarn'
+
+npm manifest: 
+  {
+    "name": "prueba-commit",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.html",
+    "scripts": {
+      "start": "parcel index.html --open",
+      "build": "parcel build index.html"
+    },
+    "dependencies": {
+      "parcel-bundler": "^1.6.1"
+    },
+    "devDependencies": {
+      "typescript": "4.4.4"
+    },
+    "resolutions": {
+      "@babel/preset-env": "7.13.8"
+    },
+    "keywords": []
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
